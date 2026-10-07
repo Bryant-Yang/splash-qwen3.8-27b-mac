@@ -1,0 +1,27 @@
+# Publish only the reviewed deployment source; keep all local artifacts private.
+/*
+!/.gitignore
+!/README.md
+!/config.json
+!/setup.sh
+!/start.sh
+!/start.py
+!/download-file.sh
+!/download-model.sh
+!/verify-model.py
+
+# Defense in depth if the source allowlist expands later.
+**/__pycache__/
+*.pyc
+*.gguf
+*.safetensors
+*.bin
+*.parts/
+.env
+.env.*
+*.pem
+*.key
+**/cache/
+**/logs/
+**/reports/
+.DS_Store

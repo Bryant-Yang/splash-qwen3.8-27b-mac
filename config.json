@@ -1,0 +1,16 @@
+{
+  "model": "jianchen0311/Qwen3.8-27B-Uncensored-Splash",
+  "revision": "3b7b650c74a5546e7fd431876c1ffa24012b746b",
+  "issue": "https://github.com/incoai/splash/issues/4#issuecomment-5746420014",
+  "host": "127.0.0.1",
+  "port": 8083,
+  "max_memory": "36G",
+  "max_context": "128K",
+  "kv_format": "int8",
+  "max_cache_disk": "10G",
+  "idle_release": "10m",
+  "default_reasoning_effort": "medium",
+  "queue_size": 4,
+  "request_timeout": "15m",
+  "offline": true
+}
